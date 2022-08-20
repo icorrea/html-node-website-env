@@ -1,0 +1,23 @@
+{
+  "name": "html-node-website-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass -w ./src/scss/style.scss ./public/css/style.min.css --style compressed",
+    "server": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.54.5"
+  }
+}
